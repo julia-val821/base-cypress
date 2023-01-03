@@ -19,7 +19,6 @@ describe('Authentication', () => {
   })
 
   it('Credentials validation L-003', () => {
-
     LoginPage.inputEmail.type('test')
     LoginPage.emailValidation.should('have.text', 'Email is not valid email')
 
